@@ -1,40 +1,37 @@
 body {
-    background: #fefefe;
+  background: #fefefe;
 }
 
 section {
-    background: #ffffff;
+  background: #ffffff;
 }
 .main-heading {
-    color: blue;
+  color: blue;
 }
 
 .secondary-heading {
-    color: #1460AA;
+  color: #1460aa;
 }
 
 .special-header {
-    color: hotpink;
+  color: hotpink;
 }
 
-
 #top {
-    background: #1cd6a8;
+  background: #1cd6a8;
 }
 
 a {
-    color:#db6adb;
+  color: #db6adb;
 }
 nav a {
-    color: #8dce24;
+  color: #8dce24;
 }
 
 #name {
-    color: red;
+  color: red;
 }
 
 .header {
-    background: #e7e6e6 ;
+  background: #e7e6e6;
 }
-
-
