@@ -35,3 +35,38 @@ nav a {
 .header {
   background: #e7e6e6;
 }
+
+.navigation {
+  background: #14aa14;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.navigation__link {
+  color: #fff;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navigation__link--homepage{
+  background: yellow;
+  color: #000;
+}
+
+.week-summary{
+  padding: 16px;
+  border: 1px #ccc solid;
+  margin-bottom: 16px;
+}
+
+.week-summary__title{
+  color: hotpink;
+}
+
+.week-summary__description{
+  color: #92140c;
+}
+
+.week-summary--special{
+  border: 1px #92140c solid;
+}

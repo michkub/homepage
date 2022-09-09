@@ -9,10 +9,10 @@
 
   <body>
     <header class="header">
-      <nav>
-        <a href="index.html">Strona główna WTF</a>
-        <a href="nauka-html.html">Nauka html</a>
-        <a href="nauka-css.html">Nauka css</a>
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna WTF</a>
+        <a class="navigation__link" href="nauka-html.html">Nauka html</a>
+        <a class="navigation__link" href="nauka-css.html">Nauka css</a>
       </nav>
     </header>
 
@@ -39,20 +39,20 @@
 
       <section id="notatki">
         <h2 class="secondary-heading">Notatki z WTF: Co ten frontend</h2>
-        <article>
-          <h3 class="special-header">Jak stworzyć prawidłowego HTML-a?</h3>
-          <p>
+        <article class="week-summary">
+          <h3 class="week-summary__title">Jak stworzyć prawidłowego HTML-a?</h3>
+          <p class="week-summary__description">
             <strong>Tworzenie zgodnego ze standardami HTML-a to sztuka</strong>,
             którą do perfekcji opanowało niewielu. Jeśli chcesz się stać częścią
             tej grupy, musisz wykazać się otwartą głową i dużą ilością wolnego
             czasu...
           </p>
         </article>
-        <article>
-          <h3 class="special-header">
+        <article class="week-summary week-summary--special">
+          <h3 class="week-summary__title ">
             Czy nagrywanie szkolenia to prosta sprawa?
           </h3>
-          <p>
+          <p class="week-summary__description">
             Na początku myślałem, że całe szkolenie nagram w 2 tygodnie (o ja
             naiwny!). Samo planowanie rzeczy zajęło dużo więcej! Na szczęście
             dzięki wsparciu bliskich i sporej motywacji udało mi się wytworzyć
@@ -61,9 +61,9 @@
           </p>
         </article>
 
-        <article>
-          <h3 class="special-header">Obrabianie pracy domowej</h3>
-          <p>Poszło mi całkiem spoko</p>
+        <article class="week-summary">
+          <h3 class="week-summary__title">Obrabianie pracy domowej</h3>
+          <p class="week-summary__description">Poszło mi całkiem spoko</p>
         </article>
       </section>
     </main>
