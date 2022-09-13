@@ -95,3 +95,15 @@ a {
 .footer__link {
   color: #1460aa;
 }
+
+.list {
+
+}
+
+.list__item {
+  list-style: lower-roman;
+}
+
+.table {
+  width: 100%;
+}
